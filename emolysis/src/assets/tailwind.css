@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-checked {
+    @apply bg-base-300 text-base-content
+}
+.card-unchecked {
+    @apply bg-neutral text-neutral-content
+}
+
+#audio-card, #text-card, #visual-card {
+    @apply transition-all duration-300
+}
+
+html {
+    @apply caret-transparent
+}
+
+.bar {
+}
+
+.emotion-bar {
+    @apply bar fill-blue-800
+}
+
+.valence-bar {
+    @apply bar fill-emerald-800
+}
+
+.arousal-bar {
+    @apply bar fill-orange-800
+}
